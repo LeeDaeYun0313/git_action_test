@@ -14,4 +14,8 @@ jobs:
         java-version: '1.8.0_192'
         
     - name: Build
-      run: ant - buildfile build.xml
+      run: |
+        ls -al
+        mkdir test-1
+        pwd
+        touch test01.txt

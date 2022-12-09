@@ -15,3 +15,7 @@ jobs:
         pwd
         touch test01.txt
         ls -al
+        ll
+        ll
+        ll
+        
